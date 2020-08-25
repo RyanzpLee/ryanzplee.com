@@ -15,6 +15,5 @@ $headers = 'From: '.$name."\r\n".
 'X-Mailer: PHP/' . phpversion();
 mail($email_to, $email_subject, $email_message, $headers) or die("Error!"); 
 
-
-echo "Thank you for your message!" . " -" . "<a href="index.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
+echo "Thank you for your message!";
 ?>
