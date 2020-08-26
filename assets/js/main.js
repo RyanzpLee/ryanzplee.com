@@ -5,9 +5,9 @@
 */
 
 (function($) {
-
-	document.location.href = String( document.location.href ).replace( "/#/", "" );
 	
+	window.location.href = String( window.location.href ).replace( "#/", "" );
+
 	var	$window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
