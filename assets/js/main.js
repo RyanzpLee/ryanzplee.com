@@ -6,7 +6,6 @@
 
 (function($) {
 	
-	window.location.href = String( window.location.href ).replace( "/#/", "" );
 
 	var	$window = $(window),
 		$body = $('body'),
