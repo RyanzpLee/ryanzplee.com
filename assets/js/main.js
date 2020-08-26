@@ -5,7 +5,8 @@
 */
 
 (function($) {
-	
+	history.pushState("", document.title, window.location.pathname + window.location.search);
+
 
 	var	$window = $(window),
 		$body = $('body'),
