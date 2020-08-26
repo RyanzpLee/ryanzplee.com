@@ -3,9 +3,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-document.location.href = String( document.location.href ).replace( "#/", "" );
+
 (function($) {
 
+	document.location.href = String( document.location.href ).replace( "/#/", "" );
+	
 	var	$window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
